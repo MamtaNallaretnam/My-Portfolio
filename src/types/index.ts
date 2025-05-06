@@ -13,3 +13,7 @@ export interface Skill {
   level: number; // 1-5
   category: "ml" | "backend" | "devops" | "soft";
 }
+
+
+
+

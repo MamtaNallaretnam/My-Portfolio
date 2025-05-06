@@ -24,3 +24,8 @@ const Section = ({ id, title, subtitle, children, className }: SectionProps) => 
 };
 
 export default Section;
+
+
+
+
+

@@ -32,3 +32,8 @@ const SkillBadge = ({ name, level = 0, className }: SkillBadgeProps) => {
 };
 
 export default SkillBadge;
+
+
+
+
+
