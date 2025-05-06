@@ -12,11 +12,11 @@ const Hero = () => {
           <div className="animate-fade-in">
             <span className="inline-block text-primary font-medium mb-4">Hello, I'm</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              <span className="block">John Doe</span>
-              <span className="block text-primary mt-2">Full Stack Developer</span>
+              <span className="block">Mamta Nallaretnam</span>
+              <span className="block text-primary mt-2">Data Science Enthusiast</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-lg mb-8">
-              I build exceptional digital experiences with a focus on performance, accessibility, and beautiful design.
+              I build intelligent data-driven solutions with a focus on accuracy, scalability, and real-world impact.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" asChild>
@@ -32,7 +32,7 @@ const Hero = () => {
             <div className="relative w-72 h-72 rounded-full bg-primary/10 p-1">
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-primary/20">
                 <img 
-                  src="https://images.unsplash.com/photo-1500673922987-e212871fec22" 
+                  src="/ml.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />

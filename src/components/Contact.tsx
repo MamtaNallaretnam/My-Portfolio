@@ -64,10 +64,10 @@ const Contact = () => {
               <div>
                 <p className="font-medium">Email</p>
                 <a 
-                  href="mailto:hello@example.com" 
+                  href="nretnammamta@gmail.com" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  hello@example.com
+                  nretnammamta@gmail.com
                 </a>
               </div>
             </div>
@@ -79,10 +79,10 @@ const Contact = () => {
               <div>
                 <p className="font-medium">Phone</p>
                 <a 
-                  href="tel:+1234567890" 
+                  href="tel:+94766287587" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +1 (234) 567-890
+                  +94 766287587
                 </a>
               </div>
             </div>
@@ -92,26 +92,26 @@ const Contact = () => {
             <h4 className="text-lg font-semibold mb-4">Connect With Me</h4>
             <div className="flex gap-4">
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/mamta-nallaretnam-884931221/" 
                 className="bg-card p-3 rounded-full border hover:bg-primary hover:text-white transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://github.com/MamtaNallaretnam" 
                 className="bg-card p-3 rounded-full border hover:bg-primary hover:text-white transition-colors"
                 aria-label="GitHub"
               >
                 <Github className="h-5 w-5" />
               </a>
-              <a 
+              {/* <a 
                 href="#" 
                 className="bg-card p-3 rounded-full border hover:bg-primary hover:text-white transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

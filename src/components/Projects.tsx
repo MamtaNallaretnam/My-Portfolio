@@ -8,51 +8,51 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A fully responsive e-commerce platform with product catalog, shopping cart, and secure checkout features.",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      title: "Crypto Trader",
+      description: "A crypto trading and portfolio management app that provides real-time exchange rates, price trend predictions,a trading simulator, sentiment-based news analysis, and price alerts, all powered by a scalable microservices backend with Kubernetes.",
+      tags: ["Microservices", "Kubernetes", "Binance API", "ML"],
+      imageUrl: "/crypto_trader.jpg",
       link: "#"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag and drop functionality, and team workspaces.",
-      tags: ["React", "Firebase", "Tailwind CSS"],
-      imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      link: "#"
+      title: "Bot Atla",
+      description: "A chatbot built using PyTorch and multi-layer neural networks for intent classification, leveraging NLP techniques and optimizers like SGD and Adam to deliver accurate, context-aware responses.",
+      tags: ["Python", "PyTorch", "NLP", "Neural Networks"],
+      imageUrl: "/bot_atla.jpg",
+      link: "https://github.com/MamtaNallaretnam/Pytorch-Chatbot"
     },
     {
       id: 3,
-      title: "Finance Dashboard",
-      description: "An interactive finance dashboard with data visualization, reporting features, and predictive analytics.",
-      tags: ["TypeScript", "D3.js", "Express", "PostgreSQL"],
-      imageUrl: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      title: "Home Credit Risk Baseline",
+      description: "A predictive model developed and used Stratified K-Fold cross-validation for assessing home credit risk stability Utilizing LightGBM and CatBoost for model development, along with Python libraries.",
+      tags: ["Python", "LightGBM", "CatBoost", "K-Fold"],
+      imageUrl: "/home_credit.jpg",
       link: "#"
     },
     {
       id: 4,
-      title: "Social Media Platform",
-      description: "A modern social media platform with real-time messaging, post sharing, and community features.",
-      tags: ["Next.js", "GraphQL", "MongoDB", "Socket.io"],
-      imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      title: "Weather Guide(Group Project)",
+      description: "Developed a weather forecasting app for tourists using Time series models, allowing business users to upload CSVs for analysis and providing insights on weather patterns, temperature, and humidity.",
+      tags: ["HTML", "CSS", "JS", "React", "FastAPI", "Firebase", "OpenMeteo API"],
+      imageUrl: "/weather_guide.jpg",
       link: "#"
     },
     {
       id: 5,
-      title: "Weather Forecasting App",
-      description: "A weather forecasting application with accurate predictions, location-based services, and interactive maps.",
-      tags: ["React", "OpenWeather API", "Leaflet", "Tailwind CSS"],
-      imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-      link: "#"
+      title: "Banking System(Group Project)",
+      description: "A Banking application designed and implemented an RDBMS database for account management, transactions and balance checks with user features.",
+      tags: ["C#", "MySQL", "RDBMS", ".NET Core"],
+      imageUrl: "/bank_management.jpg",
+      link: "https://github.com/MamtaNallaretnam/BankingSystem"
     },
     {
       id: 6,
-      title: "Recipe Sharing Platform",
-      description: "A community-driven recipe sharing platform with search functionality, favorites, and user profiles.",
-      tags: ["React", "Node.js", "Express", "MongoDB"],
-      imageUrl: "https://images.unsplash.com/photo-1433086966358-54859d0ed716",
-      link: "#"
+      title: "NYC Taxi Travel Data Analysis (Research Project)",
+      description: "Conducted research on the impact of the pandemic on NYC taxi travel data from 2019 to 2021, utilizing a windowing scheme and driving data through XGBoost to predict future trends post-pandemic.",
+      tags: ["Python", "XGBoost", "Pandas", "NumPy"],
+      imageUrl: "/busdata_analysis.jpg",
+      link: "https://github.com/MamtaNallaretnam/Research-NYC"
     },
   ];
 

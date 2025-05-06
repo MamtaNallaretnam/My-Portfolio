@@ -13,13 +13,13 @@ const Footer = () => {
               Portfolio
             </a>
             <p className="text-muted-foreground mt-2">
-              Full Stack Developer
+              Data Science Enthusiast
             </p>
           </div>
           
           <div className="text-center md:text-right">
             <p className="text-muted-foreground flex items-center justify-center md:justify-end gap-1">
-              Made with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> in {currentYear}
+              Made in {currentYear}
             </p>
             <p className="text-sm text-muted-foreground mt-1">
               All rights reserved

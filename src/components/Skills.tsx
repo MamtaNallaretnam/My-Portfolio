@@ -10,35 +10,29 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState<string>("all");
   
   const skills: Skill[] = [
-    // Frontend
-    { name: "HTML/CSS", level: 5, category: "frontend" },
-    { name: "JavaScript", level: 5, category: "frontend" },
-    { name: "React", level: 5, category: "frontend" },
-    { name: "TypeScript", level: 4, category: "frontend" },
-    { name: "Next.js", level: 4, category: "frontend" },
-    { name: "Tailwind CSS", level: 5, category: "frontend" },
-    { name: "Redux", level: 4, category: "frontend" },
-    { name: "Responsive Design", level: 5, category: "frontend" },
+    // Machine Learning Libraries
+    { name: "TensorFlow", level: 4, category: "ml" },
+    { name: "PyTorch", level: 4, category: "ml" },
+    { name: "Scikit-learn", level: 5, category: "ml" },
+    { name: "Pandas", level: 5, category: "ml" },
+    { name: "NumPy", level: 5, category: "ml" },
+    { name: "Matplotlib", level: 4, category: "ml" },
+    { name: "Seaborn", level: 4, category: "ml" },
     
     // Backend
     { name: "Node.js", level: 4, category: "backend" },
     { name: "Express", level: 4, category: "backend" },
     { name: "MongoDB", level: 3, category: "backend" },
-    { name: "PostgreSQL", level: 3, category: "backend" },
-    { name: "GraphQL", level: 3, category: "backend" },
+    { name: "PostgreSQL", level: 5, category: "backend" },
     { name: "REST APIs", level: 4, category: "backend" },
+    { name: "FastAPI", level: 4, category: "backend" },
     
-    // Design
-    { name: "Figma", level: 4, category: "design" },
-    { name: "UI/UX Design", level: 3, category: "design" },
-    { name: "Adobe XD", level: 3, category: "design" },
-    
-    // Tools
-    { name: "Git", level: 5, category: "tools" },
-    { name: "Docker", level: 3, category: "tools" },
-    { name: "Webpack", level: 3, category: "tools" },
-    { name: "Jest", level: 4, category: "tools" },
-    { name: "CI/CD", level: 3, category: "tools" },
+    // Cloud, DevOps & Tools
+    { name: "GIT", level: 4, category: "devops" },
+    { name: "AWS", level: 3, category: "devops" },
+    { name: "Azure", level: 3, category: "devops" },
+    { name: "Docker", level: 4, category: "devops" },
+    { name: "Kubernetes", level: 3, category: "devops" },
     
     // Soft Skills
     { name: "Problem Solving", level: 5, category: "soft" },
@@ -61,10 +55,9 @@ const Skills = () => {
         <Tabs defaultValue="all" value={activeTab} onValueChange={setActiveTab} className="w-full max-w-3xl">
           <TabsList className="grid grid-cols-3 md:grid-cols-6 w-full">
             <TabsTrigger value="all">All</TabsTrigger>
-            <TabsTrigger value="frontend">Frontend</TabsTrigger>
+            <TabsTrigger value="ml">ML Libs</TabsTrigger>
             <TabsTrigger value="backend">Backend</TabsTrigger>
-            <TabsTrigger value="design">Design</TabsTrigger>
-            <TabsTrigger value="tools">Tools</TabsTrigger>
+            <TabsTrigger value="devops">DevOps</TabsTrigger>
             <TabsTrigger value="soft">Soft Skills</TabsTrigger>
           </TabsList>
         </Tabs>
